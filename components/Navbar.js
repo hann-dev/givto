@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "./logo";
+import Logo from "./Logo";
 import { Component } from "react";
 
 class Navbar extends Component {
@@ -37,7 +37,7 @@ class Navbar extends Component {
         <div className="navbar-brand">
           <Link href="/index">
             <a className="navbar-item" href="index.html">
-              <img src="logo.png" width="50" height="200px" />
+              <img src="./logo.png" width="50" height="200px" />
             </a>
           </Link>
           <a
