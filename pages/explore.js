@@ -72,9 +72,5 @@ class Explore extends Component {
   }
 }
 
-export async function getServerSideProps() {
-  const data = null;
-
-  return { props: { data } };
-}
+ 
 export default Explore;
