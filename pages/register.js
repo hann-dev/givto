@@ -339,7 +339,7 @@ class Register extends Component {
               <div className="section">
                 <div className="title">Register</div>
                 <div className="subtitle">
-                  Completed <i className="fa fa-check" aria-hidden="true"></i>{" "}
+                  Completed  {" "}
                 </div>
 
                 <form className="register-form">
@@ -355,10 +355,7 @@ class Register extends Component {
                       </p>
                       <div className="control">
                         <p>
-                          <i
-                            className="fa fa-envelope has-text-white"
-                            aria-hidden="true"
-                          ></i>
+                       
                           <span className="has-text-white">
                             Contact us at :{" "}
                           </span>
